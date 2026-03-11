@@ -1,0 +1,23 @@
+{
+	"name": "ceramic_soul",
+	"version": "1.0.0",
+	"description": "",
+	"main": "vite.config.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@vheemstra/vite-plugin-imagemin": "^2.2.1",
+		"postcss-pxtorem": "^6.1.0",
+		"sass": "^1.84.0",
+		"sharp": "^0.34.5",
+		"vite": "^6.1.0",
+		"vite-plugin-image-optimizer": "^2.0.3"
+	},
+	"dependencies": {
+		"just-validate": "^4.3.0",
+		"swiper": "^11.2.10"
+	}
+}
