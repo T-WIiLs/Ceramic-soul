@@ -6,7 +6,6 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-    base: "./",
     build: {
         rollupOptions: {
             input: {
@@ -15,7 +14,7 @@ export default defineConfig({
                 blog: "blog.html",
                 about: "about.html",
             },
-        },
+        }, 
     },
     plugins: [
         ViteImageOptimizer({ 
